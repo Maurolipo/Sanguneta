@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sanguneta</title>
+    <link rel="shortcut icon" href="./img/Logo.png" type="image/x-icon">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Starts Css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Ends Css -->
+
+  </head>
+  <body>
+    <!-- Starts Nav -->
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-gray nav-position" id="botonera">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+        <img src="./img/Logo.png" alt="Logo Sanguneta" class="nav-img">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="./Paginas/nosotros.html">Nosotros</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="./Paginas/Productos y Promos/productos.html">Productos</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="./Paginas/Productos y Promos/promos.html">Promos</a>
+          </li>
+        <li class="nav-item">
+            <a class="nav-link" href="./Paginas/queUsamos.html">¿Que usamos?</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contactos</a>
+        </li>        
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+    <!-- End Nav -->
+    <!-- Starts Carousel -->
+
+    <div id="carouselExampleIndicators" class="carousel slide car-pos" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/carousel/carousel-1.jpg" class="d-block carousel-img-dimensions" alt="Sanguches de miga">
+          </div>
+          <div class="carousel-item">
+            <img src="img/carousel/carousel-2.webp" class="d-block carousel-img-dimensions" alt="Sanguches de miga">
+          </div>
+          <div class="carousel-item">
+            <img src="img/carousel/carousel-3.webp" class="d-block  carousel-img-dimensions" alt="Sanguches de miga">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    <!-- Ends Carousel -->
+    <!-- Starts Main -->
+      <main id="inicio-cont" class="container-fluid">
+        <section class="py-3">
+            <h1 class="text-title">Sanguneta</h1>
+            <!-- Starts Box 1 -->
+            <div>
+                <article id="main-caja">
+                    <h2 class="text-subtitle">Sanguches de miga artesanales</h2>
+                    <p class="text-main">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure magnam dolorem totam obcaecati commodi, expedita reiciendis ducimus ipsum error nulla cupiditate perferendis ratione est perspiciatis. Veritatis quae velit totam non!
+                    </p>
+                </article>
+            </div>
+            <!-- Ends Box 1 -->
+            <!-- Starts Box 2 -->
+            <div>
+                <article id="main-caja">
+                    <h2 class="text-subtitle">Promociones</h2>
+                    <p class="text-main">
+                        Tenemos una variedad de promociones para que se adapten a tus necesidades dependiendo de la cantidad de persona de tu evento.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni ratione dolor labore quos rem et expedita in, id necessitatibus. Molestias pariatur, est quos incidunt magnam ducimus cum nulla suscipit sint.
+                    </p>
+                </article>
+            </div>
+
+            <!-- Ends Box 2 -->
+        </section>
+    <!-- starts contacto -->
+  <section id="contacto">
+    
+    <h2 class="text-subtitle text-center">Contacto</h2>
+    <div class="row">
+    <article class="col-sm12 col-md-12 col-lg-8">
+      <form>
+        <div class="mb-3">
+          <label for="nombre" class="form-label">Nombre:</label>
+          <input type="text" class="form-control" id="nombre">
+          
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email:</label>
+          <input type="email" class="form-control" id="email">
+        </div>
+        <div class="mb-3">
+          <label for="tel" class="form-label">Tel.:</label>
+          <input type="tel" class="form-control" id="tel">
+        </div>
+        <div class="mb-3 message">
+          <label for="mensaje">Deja tu mensaje</label>
+                <textarea name="" id="mensaje" cols="20" rows="2"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary button">Submit</button>
+      </form> 
+    </article>  
+     <!-- starts map --> 
+     <article class="col-sm12 col-md-12 col-lg-4 map">
+     <iframe src="https://www.google.com/maps/embed?pb=!4v1661546871430!6m8!1m7!1swcP1ACYHM-75A6KUVNqN_Q!2m2!1d-34.7593443846306!2d-58.40689807242865!3f253.25027!4f0!5f0.7820865974627469" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+     </article>
+    </div>
+     <!-- ends map -->
+  </section>
+<!-- ends contacto -->      
+      </main>
+    <!-- Ends Mains -->
+
+
+   
+      <!-- starts footer -->
+      <footer>
+        <ul>
+            <div>
+            <a href="https://es-la.facebook.com" target="_blank">
+            <img src="img/footers/facebook_logo.png" alt="facebook">
+            </a>
+            <a href="https://www.instagram.com" target="_blank">
+            <img src="img/footers/Insta_logo.png" alt="instagram">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+            <img src="img/footers/Twitter_logo.png" alt="twitter">
+            </a>
+            </div>
+        </ul>
+    </footer>
+    <!-- ends footer -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
